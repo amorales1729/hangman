@@ -1,5 +1,3 @@
-// script.js
-
 function startGame() {
     
     document.getElementById('cheatCheckbox').checked = false;
@@ -95,12 +93,7 @@ function updateAttemptsLeft() {
 }
 
 function updateGallows() {
-    // Implement the logic to update the gallows image or draw a section
-    // This placeholder assumes you update an element's textContent or src attribute
-    // Example: document.getElementById('gallows').textContent = `Attempts left: ${attemptsLeft}`;
-    // Or, if using images, adjust the image source based on attemptsLeft
     console.log(`Attempts left: ${attemptsLeft}`);
 }
 
-// Initially start the game
 startGame();
